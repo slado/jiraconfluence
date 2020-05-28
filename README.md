@@ -8,13 +8,15 @@ docker-compose obsahuje
 > Zapoznamkovany je bitbucket (obdoba GitHubu). Po odpoznamkovani a zmene konfiguracie nginx (kompletna aj s bitbucketom je v nginx.conf.all) je mozne si to vyskusat kompletne
 
 ## Adresy
-http://jira.internal
-http://confluence.internal
+- http://jira.internal
+- http://confluence.internal
+- http://bitbucket.internal
 
 Do hosts treba pridat
 ```
 127.0.0.1 jira.internal
 127.0.0.1 confluence.internal
+127.0.0.1 bitbucket.internal
 ```
 
 ## Spustenie
